@@ -1,2 +1,6 @@
 # DSA---Journal
-My DSA and LeetCode solutions with notes.
+This is my personal DSA practice journal.  
+Here I record all the problems I solve, along with approaches.
+
+## Topics Covered
+- [Arrays](./Arrays/README.md)
