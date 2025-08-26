@@ -28,3 +28,10 @@ This section contains all the array problems I solve, along with short explanati
  - Initialize trappedrainwater by 0 and calculate trw by +=waterlevel -height[i].
  - keep trappedrainwater.
    
+## 📌 Problem 5:
+**LeetCode 287**- Find the duplicate number (https://leetcode.com/problems/find-the-duplicate-number);
+**Approach**
+ - Use binary search on the value range from 1 to n.
+ - For each mid, count how many numbers in the array are <= mid.
+ - If count > mid, the duplicate must be in the left half; otherwise, it’s in the right half.
+ - Narrow down until low == high, which is the duplicate number.
