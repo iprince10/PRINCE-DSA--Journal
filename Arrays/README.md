@@ -35,3 +35,9 @@ This section contains all the array problems I solve, along with short explanati
  - For each mid, count how many numbers in the array are <= mid.
  - If count > mid, the duplicate must be in the left half; otherwise, it’s in the right half.
  - Narrow down until low == high, which is the duplicate number.
+
+## 📌 Problem 6:
+**LeetCode 136**- Single Number(https://leetcode.com/problems/single-number);
+**Approach**
+ - Bit Manipulation, initialize a variable index with 0 and for the array length:
+ - XOR of number with itself is 0 and XOR of number with 0 is number itself, return index
