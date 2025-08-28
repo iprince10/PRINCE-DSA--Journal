@@ -43,4 +43,10 @@ This section contains all the array problems I solve, along with short explanati
  - XOR of number with itself is 0 and XOR of number with 0 is number itself, return index
 
 ## 📌 Problem 7:
-Will be added tommorrow.
+**LeetCode 33**- Search in sorted rotated array(https://leetcode.com/problems/search-in-rotated-sorted-array):
+**Approach**
+ - Initialize start and end of the array . Calculate mid while start<end.
+ - If number[mid]== target , return mid; if not check for both sorted rotated left and sorted rotated right.
+ - For sorted left half, if number lies in left update end ,else start.
+ - For sorted right half . if number lies in right side update start, else end .
+ - Return -1 , if number not found.
