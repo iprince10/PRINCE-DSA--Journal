@@ -41,3 +41,6 @@ This section contains all the array problems I solve, along with short explanati
 **Approach**
  - Bit Manipulation, initialize a variable index with 0 and for the array length:
  - XOR of number with itself is 0 and XOR of number with 0 is number itself, return index
+
+## 📌 Problem 7:
+Will be added tommorrow.
