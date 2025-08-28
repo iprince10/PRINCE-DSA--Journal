@@ -50,3 +50,17 @@ This section contains all the array problems I solve, along with short explanati
  - For sorted left half, if number lies in left update end ,else start.
  - For sorted right half . if number lies in right side update start, else end .
  - Return -1 , if number not found.
+
+## 📌 Problem 8:
+**LeetCode 81**-Search in sorted rotated array ii (https://leetcode.com/problems/search-in-rotated-sorted-array-ii)
+**Approach**
+ - Initialize left and right of the array . Calculate mid while left <= right .
+ - If number[mid]== target , return true;
+ - Put condition if (nums[left]== nums[mid] && nums[right]== nums[mid]) , increment left++ decrement right -- ,continue,this cancels out repeated nums that causes problems in finding left and right sorted arrays from both sides of mid.
+ - If nums [mid} != target , check for both sorted rotated left and sorted rotated right.
+ - For sorted left half, if number lies in left update right ,else left.
+ - For sorted right half . if number lies in right side update left, else right.
+ - Return false , if number not found.
+
+## 📌 Problem 9:
+Will ne added tommorrow.
