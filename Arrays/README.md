@@ -82,3 +82,9 @@ This section contains all the array problems I solve, along with short explanati
  - Same as above just add a condition to check duplicates (if nums[left] and nums[right] == nums [mid] , left ++, right--, continue.
  - Another approach is without condition , compare mid , if mid > right , update left = mid +1 , else if mid < right, right = mid , else right --.
  - Second approach should be considered as it is more reliable for all test cases.
+
+## 📌 Problem 12:
+**LeetCode 162**-Find peak element(https://leetcode.com/problems/find-peak-element):
+**Approach**
+ - Use binary search , initialize left=0 and right=n-1 , while (left<right), find mid ,
+ - compare mid with mid + 1, if mid <= mid + 1, update left = mid +1, else right = mid, return left.
