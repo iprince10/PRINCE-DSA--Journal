@@ -68,3 +68,10 @@ This section contains all the array problems I solve, along with short explanati
  - This approach is not optimal but still can be used , use hashmap for better solution.
  - initialise count variable as 0 and declare sum variable . Calculate sum for outer loop index and if sum == target , count++
  - similarly for inner loop starting from index+1 , do the same and return count.
+
+## 📌 Problem 10:
+**LeetCode 153**-Find minimum in rotated sorted array(https://leetcode.com/problems/find-minimum-in-rotated-sorted-array):
+**Approach**
+ - Use Binary search , initialize left and right (since it demands last element (left<right)not equal to.
+ - calculate mid , compare mid with right , if mid >= right , update left,else right = mid .
+ - Return nums[left].
