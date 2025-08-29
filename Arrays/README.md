@@ -47,8 +47,8 @@ This section contains all the array problems I solve, along with short explanati
 **Approach**
  - Initialize start and end of the array . Calculate mid while start<end.
  - If number[mid]== target , return mid; if not check for both sorted rotated left and sorted rotated right.
- - For sorted left half, if number lies in left update end ,else start.
- - For sorted right half . if number lies in right side update start, else end .
+ - For sorted left half,nums[start]<=nums[mid], if number lies in left update end = mid-1,else start = mid+1.
+ - For sorted right half, nums[end]>=nums[mid] ,if number lies in right side update start = mid + 1, else end = mid-1.
  - Return -1 , if number not found.
 
 ## 📌 Problem 8:
@@ -75,3 +75,10 @@ This section contains all the array problems I solve, along with short explanati
  - Use Binary search , initialize left and right (since it demands last element (left<right)not equal to.
  - calculate mid , compare mid with right , if mid >= right , update left,else right = mid .
  - Return nums[left].
+
+## 📌 Problem 11:
+**LeetCode 154**-Find minimum in rotated sorted array ii(https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii):
+**Approach**
+ - Same as above just add a condition to check duplicates (if nums[left] and nums[right] == nums [mid] , left ++, right--, continue.
+ - Another approach is without condition , compare mid , if mid > right , update left = mid +1 , else if mid < right, right = mid , else right --.
+ - Second approach should be considered as it is more reliable for all test cases.
