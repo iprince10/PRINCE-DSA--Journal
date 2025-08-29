@@ -52,7 +52,7 @@ This section contains all the array problems I solve, along with short explanati
  - Return -1 , if number not found.
 
 ## 📌 Problem 8:
-**LeetCode 81**-Search in sorted rotated array ii (https://leetcode.com/problems/search-in-rotated-sorted-array-ii)
+**LeetCode 81**-Search in sorted rotated array ii (https://leetcode.com/problems/search-in-rotated-sorted-array-ii):
 **Approach**
  - Initialize left and right of the array . Calculate mid while left <= right .
  - If number[mid]== target , return true;
@@ -63,4 +63,8 @@ This section contains all the array problems I solve, along with short explanati
  - Return false , if number not found.
 
 ## 📌 Problem 9:
-Will ne added tommorrow.
+**LeetCode 560**- Subarray Sum equals k (https://leetcode.com/problems/subarray-sum-equals-k):
+**Approach**
+ - This approach is not optimal but still can be used , use hashmap for better solution.
+ - initialise count variable as 0 and declare sum variable . Calculate sum for outer loop index and if sum == target , count++
+ - similarly for inner loop starting from index+1 , do the same and return count.
