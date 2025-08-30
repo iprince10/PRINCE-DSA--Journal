@@ -88,3 +88,8 @@ This section contains all the array problems I solve, along with short explanati
 **Approach**
  - Use binary search , initialize left=0 and right=n-1 , while (left<right), find mid ,
  - compare mid with mid + 1, if mid <= mid + 1, update left = mid +1, else right = mid, return left.
+
+## 📌 Problem 13:
+**LeetCode 912**-Sort an Array(https://leetcode.com/problems/sort-an-array):
+**Approach**
+ - 
