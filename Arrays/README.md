@@ -97,3 +97,12 @@ This section contains all the array problems I solve, along with short explanati
  - Store the frequencies by count[nums[i]-smallest].
  - Now sort this count array containing frequncies. Make a variable for pointing indexes of nums array j = 0, iterate over the count array, while count[i]>0, nums[j]=i+smallest,j++,count[i]--.
  - Return nums.
+ - This approach works for negative elements in array as well.
+
+## 📌 Problem 14:
+**LeetCode 75**-Sort colors(https://leetcode.com/problems/sort-colors):
+**Approach**
+ - Can be done by any sorting technique like insertion and counting sort , but best is counting sort because of small input.
+ - Use counting sort , find largest and smallest element.
+ - Make count array to store frequencies and count array length is (l-s+1). Store frequncies in array by count[nums[i]-smallest].
+ - Now sort the counting array . Refer to problem 13 for sorting.
