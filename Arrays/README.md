@@ -106,3 +106,10 @@ This section contains all the array problems I solve, along with short explanati
  - Use counting sort , find largest and smallest element.
  - Make count array to store frequencies and count array length is (l-s+1). Store frequncies in array by count[nums[i]-smallest].
  - Now sort the counting array . Refer to problem 13 for sorting.
+
+## 📌 Problem 15:
+**LeetCode 283**- Move Zeroes(https://leetcode.com/problems/move-zeroes):
+**Approach**
+ - Using two pointers.
+ - Initialize left pointer with 0, and iterate right pointer over the nums length.
+ - When nums[right] != 0, then swap the element of left and right , increment left.
