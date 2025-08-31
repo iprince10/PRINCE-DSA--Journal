@@ -92,4 +92,8 @@ This section contains all the array problems I solve, along with short explanati
 ## 📌 Problem 13:
 **LeetCode 912**-Sort an Array(https://leetcode.com/problems/sort-an-array):
 **Approach**
- - 
+ - Find the largest and smallest element of the nums array.
+ - Make a count array to store frequncies of the elements of the nums array. Size of the count array is (largest - smallest + 1).
+ - Store the frequencies by count[nums[i]-smallest].
+ - Now sort this count array containing frequncies. Make a variable for pointing indexes of nums array j = 0, iterate over the count array, while count[i]>0, nums[j]=i+smallest,j++,count[i]--.
+ - Return nums.
