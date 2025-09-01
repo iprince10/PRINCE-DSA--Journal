@@ -113,3 +113,10 @@ This section contains all the array problems I solve, along with short explanati
  - Using two pointers.
  - Initialize left pointer with 0, and iterate right pointer over the nums length.
  - When nums[right] != 0, then swap the element of left and right , increment left.
+
+## 📌 Problem 16:
+**LeetCode 27**-Remove element(https://leetcode.com/problems/remove-element):
+**Approach**
+ - Use two pointers
+ - Left pointer to point at index for storing the element.
+ - Iterate the right pointer over the nums length , check if the num at right != val , then store the num of right index  at left index .
