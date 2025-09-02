@@ -125,3 +125,7 @@ This section contains all the array problems I solve, along with short explanati
 **LeetCode 2460**-Apply operations to an array(https://leetcode.com/problems/apply-operations-to-an-array):
 **Approach**
  - Use two pointer , full fill the conditions . And fill the remaining indexes by zero. 
+
+## 📌 Problem 18:
+**LeetCode **-
+to be added soon
