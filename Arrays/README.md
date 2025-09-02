@@ -127,5 +127,5 @@ This section contains all the array problems I solve, along with short explanati
  - Use two pointer , full fill the conditions . And fill the remaining indexes by zero. 
 
 ## 📌 Problem 18:
-**LeetCode **-
+**LeetCode**-
 to be added soon
