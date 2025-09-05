@@ -150,3 +150,12 @@ This section contains all the array problems I solve, along with short explanati
  - Increment start of rows & col. Decrement end of rows & col after every iterations.
  - Return result.
 
+## 📌 Problem 21: 
+**LeetCode 540**-Single element in a sorted array(https://leetcode.com/problems/single-element-in-a-sorted-array):
+**Approach**
+ - Initialize start and end as of nums length.
+ - The elements in duplicates must be in (even odd) pair before the single element and after that they will be in (odd even)pair.
+ - Calculate mid and mid should be in even position i.e. if(mid % 2 == 1) mid--;
+ - If nums[mid]=nums[mid+1] then start = mid + 2 ; (jump 2 steps because we have check nums[mid] and nums[mid+1].
+ - else  end = mid .
+ - Return nums[start].
