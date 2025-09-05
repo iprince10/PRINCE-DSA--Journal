@@ -127,5 +127,13 @@ This section contains all the array problems I solve, along with short explanati
  - Use two pointer , full fill the conditions . And fill the remaining indexes by zero. 
 
 ## 📌 Problem 18:
-**LeetCode**-
-to be added soon.
+**LeetCode 74**- Search in a 2D matrix(https://leetcode.com/problems/search-a-2d-matrix):
+**Approach**
+ - Consider the matrix as a sorted 1d array .
+ - Initiliaze start and end where end = m * n - 1
+ - Use binary search , calculate mid , row = mid/n and col = mid%n. Thus if matrix[row][col]==target, return true , else update start or end.
+
+## 📌 Problem 19:
+**LeetCode   **
+To be added soon
+
