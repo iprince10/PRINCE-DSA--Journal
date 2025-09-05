@@ -133,7 +133,14 @@ This section contains all the array problems I solve, along with short explanati
  - Initiliaze start and end where end = m * n - 1
  - Use binary search , calculate mid , row = mid/n and col = mid%n. Thus if matrix[row][col]==target, return true , else update start or end.
 
-## 📌 Problem 19: **This is an array list and 2d array question**
+## 📌 Problem 19:
+**LeetCode 240**- Search in a 2D matrix II (https://leetcode.com/problems/search-a-2d-matrix-ii):
+**Approach**
+ - Since the rows are independently sorted  but we check the end of each each row at end column.
+ - So the mid would be direct at row = 0 and col = n-1; (we can also take row = m-1 and col =0 and put conditions accordingly)
+ - Therefore while(row < m and col > = 0) check if matrix [row][col]==target, if yes return true else if > target decrement col else increment row.  
+
+## 📌 Problem 20: **This is an array list and 2d array question**
 **LeetCode 54**- Spiral Matrix(https://leetcode.com/problems/spiral-matrix):
 **Approach**
  - Initiliaze a list<Integer>result which contains a new arraylist<>().
