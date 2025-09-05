@@ -133,7 +133,13 @@ This section contains all the array problems I solve, along with short explanati
  - Initiliaze start and end where end = m * n - 1
  - Use binary search , calculate mid , row = mid/n and col = mid%n. Thus if matrix[row][col]==target, return true , else update start or end.
 
-## 📌 Problem 19:
-**LeetCode   **
-To be added soon
+## 📌 Problem 19: **This is an array list and 2d array question**
+**LeetCode 54**- Spiral Matrix(https://leetcode.com/problems/spiral-matrix):
+**Approach**
+ - Initiliaze a list<Integer>result which contains a new arraylist<>().
+ - Declare start and end of rows and columns. While the start <=end of both rows and columns do:
+ - Iterate over the outer boundary of the matrix to add top , right , bottom and left elements of the matrix to result.add(matrix[][]).
+ - Also add the condition in bottom and left to remove duplicates .
+ - Increment start of rows & col. Decrement end of rows & col after every iterations.
+ - Return result.
 
