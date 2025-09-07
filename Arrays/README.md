@@ -169,4 +169,10 @@ This section contains all the array problems I solve, along with short explanati
  - Return nums.
 
 ## 📌 Problem 23:
-To be added soon.
+**LeetCode 11**- Container with most water-(https://leetcode.com/problems/container-with-most-water):
+**Approach**
+ - Declare two pointers(i,j) starting from 0 going to array length,declare a variable maxarea initialize with 0.
+ - While i<j, calculate min height , width , currarea is width*minheight.
+ - Put a condition on both i,j height , if i is smaller i++, else j==.
+ - Return maxarea.
+ - While 
