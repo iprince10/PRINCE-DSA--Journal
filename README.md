@@ -13,6 +13,6 @@ Here I record all the problems I solve, along with approaches.
 - Backtracking _(coming soon 🚀)_
 - Greedy Algorithms _(coming soon 🚀)_
 
-## Also Updating :
+## Also Updating Daily :
 - [Daily challenge leetcode question](Daily%20Leetcode%20Challenge%20Questions)
 
