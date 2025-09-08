@@ -161,14 +161,6 @@ This section contains all the array problems I solve, along with short explanati
  - Return nums[start].
 
 ## 📌 Problem 22:
-**LeetCode 1304**-Find n Unique Integers Sum up to zero(https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/):
-**Approach**
- - Declare an array nums of length n .
- - Make a var index that points to indexes of nums[] and var pairs of n/2 length.
- - Iterate over 1 to pairs. Store the no. in nums array both positive and negative. If n is odd store a 0 also in nums.
- - Return nums.
-
-## 📌 Problem 23:
 **LeetCode 11**- Container with most water-(https://leetcode.com/problems/container-with-most-water):
 **Approach**
  - Declare two pointers(i,j) starting from 0 going to array length,declare a variable maxarea initialize with 0.
