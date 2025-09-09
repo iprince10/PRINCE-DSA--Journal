@@ -14,3 +14,7 @@
  - Put a and b in isconatinszero(int n) .While (n > 0).  Return true if n%10 == 0 then  n=n/10  or false if not.
  - Return new int[][] in main func.
 
+## 📌 Problem 3:
+**LeetCode 2327**-Number of people aware of a secret(https://leetcode.com/problems/number-of-people-aware-of-a-secret):
+**Approach**
+ - Its a Dynamic programming question .
