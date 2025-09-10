@@ -167,4 +167,4 @@ This section contains all the array problems I solve, along with short explanati
  - While i<j, calculate min height , width , currarea is width*minheight.
  - Put a condition on both i,j height , if i is smaller i++, else j==.
  - Return maxarea.
- - While 
+
