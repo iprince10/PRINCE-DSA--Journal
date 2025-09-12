@@ -168,3 +168,5 @@ This section contains all the array problems I solve, along with short explanati
  - Put a condition on both i,j height , if i is smaller i++, else j==.
  - Return maxarea.
 
+## 📌 Problem 23:
+**LeetCode**- Will be added soon
