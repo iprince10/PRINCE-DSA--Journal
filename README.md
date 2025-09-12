@@ -4,7 +4,7 @@ Here I record all the problems I solve, along with approaches.
 
 ##  📂 Topics Covered
 - [Arrays](./Arrays/README.md)
-- Strings _(coming soon 🚀)_
+- [Strings](./Strings/README.md)
 - Dynamic Programming _(coming soon 🚀)_
 - Graphs _(coming soon 🚀)_
 - Linked Lists _(coming soon 🚀)_
