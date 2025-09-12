@@ -18,3 +18,14 @@ This section contains all the strings problems I solve, along with short explana
  - compare curr and next values , if curr < next then result = result - curr
  - else result = result+curr.
  - return result.   
+
+## 📌 Problem 3:
+**LeetCode 12** - Integer to Roman (https://leetcode.com/problems/integer-to-roman):
+**Approach**
+ - Make a final inetger values[] storing all  13 values from 1000 to 1  (remember by 10,9,5,4).
+ - Make a final string symbols[] storing all 13 corresponding symbols.
+ - Make a StringBuilder sb initialize with empty string.
+ - Iterate over the values array. Break the loop when num==0.
+ - While(num>=values[i]) append the symbol corresponding to value in sb.
+ - and num is num-values[i].
+ - Return sb.toString().
