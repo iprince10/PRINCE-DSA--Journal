@@ -29,3 +29,14 @@ This section contains all the strings problems I solve, along with short explana
  - While(num>=values[i]) append the symbol corresponding to value in sb.
  - and num is num-values[i].
  - Return sb.toString().
+
+## 📌 Problem 4:
+**LeetCode 3541** -(https://leetcode.com/problems/find-most-frequent-vowel-and-consonant):
+**Approach**
+ - Make a frequency array of size 26 storing frequency of characters
+ - Initialize maxvowel and maxconsonant two variables with 0 .
+ - Iterate over the string length , get char at each index store in variable c .
+ - Subtract c with 'a' (bcoz char has their values a has 97 value ).
+ - Increment freq[i].
+ - Check if c is vowel if yes increase maxvowel using Math.max, else maxconsonant.
+ - Return maxvowel+maxconsonant.  
