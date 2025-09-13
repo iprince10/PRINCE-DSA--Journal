@@ -14,6 +14,5 @@ Here I record all the problems I solve, along with approaches.
 - Greedy Algorithms _(coming soon 🚀)_
 
 ## Also Updating Daily :
-- [Daily challenge leetcode question](Daily%20Leetcode%20Challenge%20Questions)
-- (Will continue from 1st October.)
+- [Daily challenge leetcode question](Daily%20Leetcode%20Challenge%20Questions) (Will continue from 1st October.)
 
