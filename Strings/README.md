@@ -40,3 +40,6 @@ This section contains all the strings problems I solve, along with short explana
  - Increment freq[i].
  - Check if c is vowel if yes increase maxvowel using Math.max, else maxconsonant.
  - Return maxvowel+maxconsonant.  
+
+## 📌 Problem 4:
+**LeetCode** -
