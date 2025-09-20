@@ -19,3 +19,6 @@
 **Approach**
  - Its a Dynamic programming question .
  - Approach will be discussed later.
+
+## 📌 Problem 4:
+Will be continued from 1st October.
