@@ -42,5 +42,12 @@ This section contains all the strings problems I solve, along with short explana
  - Return maxvowel+maxconsonant.  
 
 ## 📌 Problem 4:
-**LeetCode** -
-will be added soon....
+**LeetCode 14** -Longest Common Prefix(https://leetcode.com/problems/longest-common-prefix)
+**Approach**
+ - Sort the array of string first.Because it gives the extreme cases for comparing.
+ - Make two strings s1 and s2 containing first and last string of the given string.
+ - Initialize index variable by zero .
+ - While idx > s1.length() && s2.length() as well. Compare each char of s1 and s2. If equal increment idx ,else break the loop.
+ - Return s1.substring(0,idx).
+ 
+
